@@ -100,7 +100,8 @@ O sistema está estruturado em dois módulos fundamentais:
 
 ## 📂 Arquivos Gerados pelo Pipeline
 
-- `cluster-kmeans.py`: Código-fonte completo com os módulos de treinamento e inferência.
+- `cluster-kmeans.ipynb`: **Jupyter Notebook interativo** com toda a explicação didática passo a passo, gráficos renderizados e saídas executadas.
+- `cluster-kmeans.py`: Código-fonte completo em Python com os módulos de treinamento e inferência.
 - `metodo_cotovelo.png`: Gráfico gerado automaticamente demonstrando o cotovelo em $k=3$.
 - `modelo_kmeans.joblib`: Modelo K-Means treinado e serializado.
 - `preprocessor.joblib`: Objeto com imputers e scalers ajustados na base de treino.
